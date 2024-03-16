@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <section id="bookingForm" class="signup-step-container">
         <div class="container">
             <div class="row d-flex justify-content-center">
@@ -429,7 +428,6 @@
             </div>
         </div>
     </section>
-
 
     <?php include './components/body-scripts.php'; ?>
 </body>
