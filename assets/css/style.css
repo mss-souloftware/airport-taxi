@@ -365,3 +365,211 @@ i {
         display: block;
     }
 }
+
+
+#formCol {
+    background: #2F3033;
+    padding: 10px 20px;
+}
+
+#formCol .formTitle {
+    color: #FFCA09;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #5A5454;
+    margin-bottom: 20px;
+}
+
+#formCol #addWay {
+    background: #585858;
+    font-size: 14px;
+    padding: 4px 12px;
+    white-space: nowrap;
+    border-radius: 30px;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #fff;
+    max-width: 130px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#formCol #addWay img {
+    width: 15px;
+    margin-right: auto;
+}
+
+#formCol label {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#formCol input[type="text"] {
+    font-size: 14px;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+#bookingForm .next-step {
+    background: #FFCA09 !important;
+    display: block;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #2F3033;
+}
+
+.dateRows>div {
+    width: 50%;
+}
+
+.dateRows>div:last-child,
+.dateRows>div:nth-child(2) {
+    width: 25%;
+}
+
+.dateRows>div select,
+.dateRows>div input {
+    border-radius: 0;
+}
+
+.dateRows>div:last-child select {
+    border-radius: 0 5px 5px 0;
+}
+
+.dateRows>div:first-child input {
+    border-radius: 5px 0 0 5px;
+}
+
+.footerForm p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 280px;
+}
+
+.footerForm a {
+    background: #ccc !important;
+    padding: 6px 15px !important;
+    display: block !important;
+    width: fit-content !important;
+    margin: 0 auto !important;
+    color: #000 !important;
+    border-radius: 8px !important;
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+}
+
+.boxPeraFirst {
+    padding: 30px;
+    border: 1px solid #e8e8e8;
+}
+
+.boxPeraFirst h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secndStep h3 {
+    background: #E5E5E5;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px;
+    margin: 0;
+}
+
+.secndStep .selectCar {
+    border: 1px solid #E5E5E5;
+    padding: 15px;
+    background: #F7F7F7;
+}
+
+.secndStep .selectCar .carCard {
+    display: flex;
+    padding: 10px;
+    background: #fff;
+}
+
+.secndStep .selectCar .carCard .carIMg {
+    width: 40%;
+    padding-right: 10px;
+}
+
+.secndStep .selectCar .carCard .carIMg img {
+    width: 100%;
+}
+
+.secndStep .selectCar .carCard .carData {
+    width: 60%;
+}
+
+.secndStep .selectCar .carCard .carData .titleRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secndStep .selectCar .carCard .carData h4 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.secndStep .selectCar .carCard .carData span {
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+.secndStep .selectCar .carCard .carData span:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.secndStep .selectCar .carCard .carData h2 {
+    color: #EFBB00;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+}
+
+.secndStep .selectCar .carCard .carData .descData {
+    display: flex;
+}
+
+.secndStep .selectCar .carCard .carData .descData p {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+.secndStep .selectCar .carCard .carData .descData ul {
+    list-style: none;
+}
+
+.secndStep .selectCar .carCard .carData .descData ul li {
+    display: flex;
+}
+
+.secndStep .selectCar .carCard .carData .descData ul li span {
+    border: 0;
+}
