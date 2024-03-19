@@ -485,91 +485,90 @@ i {
 
 
 
-
-
-
-
 .secndStep h3 {
-    background: #E5E5E5;
-    font-size: 24px;
-    font-weight: 600;
-    padding: 20px;
-    margin: 0;
+    background:#E5E5E5;
+    font-size:24px;
+    font-weight:600;
+    padding:20px;
+    margin:0;
 }
 
-.secndStep .selectCar {
-    border: 1px solid #E5E5E5;
-    padding: 15px;
-    background: #F7F7F7;
+.secndStep .selectCar{
+    border:1px solid #E5E5E5;
+    padding:15px;
+    background:#F7F7F7;
 }
 
 .secndStep .selectCar .carCard {
-    display: flex;
-    padding: 10px;
-    background: #fff;
+    display:flex;
+    padding:20px 15px;
+    background:#fff;
 }
 
-.secndStep .selectCar .carCard .carIMg {
-    width: 40%;
-    padding-right: 10px;
+.secndStep .selectCar .carCard .carIMg{
+    width:40%;
+    padding-right:10px;
 }
 
-.secndStep .selectCar .carCard .carIMg img {
-    width: 100%;
+.secndStep .selectCar .carCard .carIMg img{
+    width:100%;
 }
 
-.secndStep .selectCar .carCard .carData {
-    width: 60%;
+.secndStep .selectCar .carCard .carData{
+    width:60%;
+}
+.secndStep .selectCar .carCard .carData .titleRow{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.secndStep .selectCar .carCard .carData h4{
+    font-size:16px;
+    margin:0;
 }
 
-.secndStep .selectCar .carCard .carData .titleRow {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.secndStep .selectCar .carCard .carData span{
+    border:1px solid #000;
+    border-radius:30px;
+    padding:0px 10px;
+    font-size:14px;
 }
 
-.secndStep .selectCar .carCard .carData h4 {
-    font-size: 16px;
-    margin: 0;
+.secndStep .selectCar .carCard .carData span:hover{
+    background:#000;
+    color:#fff;
+    cursor:pointer;
 }
 
-.secndStep .selectCar .carCard .carData span {
-    border: 1px solid #000;
-    border-radius: 30px;
-    padding: 0px 10px;
-    font-size: 14px;
+.secndStep .selectCar .carCard .carData h2{
+    color:#EFBB00;
+    font-size:22px;
+    font-weight:600;
+    margin:10px 0 0 0;
 }
 
-.secndStep .selectCar .carCard .carData span:hover {
-    background: #000;
-    color: #fff;
-    cursor: pointer;
+.secndStep .selectCar .carCard .carData .descData{
+    display:flex;
 }
 
-.secndStep .selectCar .carCard .carData h2 {
-    color: #EFBB00;
-    font-size: 22px;
-    font-weight: 600;
-    margin: 10px 0 0 0;
+.secndStep .selectCar .carCard .carData .descData p{
+    font-size:14px;
+    margin:5px 0 0;
 }
 
-.secndStep .selectCar .carCard .carData .descData {
-    display: flex;
+.secndStep .selectCar .carCard .carData .descData ul{
+    list-style:none;
 }
 
-.secndStep .selectCar .carCard .carData .descData p {
-    font-size: 14px;
-    margin: 5px 0 0;
+.secndStep .selectCar .carCard .carData .descData ul li{
+    display:flex;
+    margin-bottom:10px;
 }
 
-.secndStep .selectCar .carCard .carData .descData ul {
-    list-style: none;
+.secndStep .selectCar .carCard .carData .descData ul li img{
+    width:20px;
 }
 
-.secndStep .selectCar .carCard .carData .descData ul li {
-    display: flex;
-}
-
-.secndStep .selectCar .carCard .carData .descData ul li span {
-    border: 0;
+.secndStep .selectCar .carCard .carData .descData ul li span{
+    border:0;
 }
